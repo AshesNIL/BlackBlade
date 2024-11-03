@@ -110,3 +110,10 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
+# DATA
+
+data/economy.json
+data/members.json
+data/powerHistory.json
+data/roles.json
