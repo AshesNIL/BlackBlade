@@ -56,7 +56,7 @@ module.exports = {
         // Schedule the job to run every day at the specified time
         const job = schedule.scheduleJob(rule, function() {
             const now = new Date();
-            const startDate = new Date('2023-01-01'); // Set a start date
+            const startDate = new Date('2024-11-2'); // Set a start date
             const diffTime = Math.abs(now - startDate);
             const diffDays = Math.ceil(diffTime / (1000 * 60 * 60 * 24));
 
